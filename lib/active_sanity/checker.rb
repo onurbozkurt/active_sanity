@@ -21,7 +21,7 @@ module ActiveSanity
 
       load_all_models
 
-      @models ||= direct_active_record_base_descendants
+      # @models ||= direct_active_record_base_descendants
     end
 
     protected
